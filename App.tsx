@@ -15,9 +15,9 @@ const App = () => {
 
       <Switch
         style={styles.toggle}
-        trackColor={{ false: "#ECE8D9", true: "#FFFFFF" }}
+        trackColor={{ false: "#FFFFFF", true: "#FFFFFF" }}
         thumbColor={isEnabled ? green : yellow}
-        ios_backgroundColor="#D8D8D8"
+        ios_backgroundColor="#FFFFFF"
         onValueChange={toggleSwitch}
         value={isEnabled}
       ></Switch>
