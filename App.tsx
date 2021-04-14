@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { createPortal } from 'react-dom';
 import { StyleSheet, Switch, Text, View } from 'react-native';
 
 const App = () => {
@@ -58,10 +57,6 @@ const styles = StyleSheet.create({
   }
 });
 
-
-function backgroundColor() {
-  throw new Error('Function not implemented.');
-}
 /*
 #AEC69B green
 */
